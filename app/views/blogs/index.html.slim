@@ -1,4 +1,17 @@
-body
+    .arc-header.arc-position-fixed
+      .arc-container-fluid.arc-flex.arc-justify-content-between.arc-align-items-center
+        .arc-branding
+          a 
+            b BR
+            | Architects
+        .arc-menu
+          ul.arc-flex
+            li Projects
+            li About
+            li Contact
+
+    =render partial:"blogs/layouts/banner" 
+        
     h1 Markup examples
 
     #content
@@ -7,7 +20,7 @@ body
       h1 id="headline"
         | Welcome to my site.
 
-        a href="https://slim-template.github.io" title='Slim Homepage' Goto the Slim homepage
+        a href="https://slim-template.github.io" title='Slim Homepage' Goto t.he Slim homepage
 
     #footer
       Copyright &copy; #{@year} #{@author}
