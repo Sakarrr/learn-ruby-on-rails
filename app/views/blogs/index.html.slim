@@ -1,36 +1,12 @@
-    .arc-header.arc-position-fixed
-      .arc-container-fluid.arc-flex.arc-justify-content-between.arc-align-items-center
-        .arc-branding
-          a 
-            b BR
-            | Architects
-        .arc-menu
-          ul.arc-flex
-            li Projects
-            li About
-            li Contact
+=render partial:"blogs/layouts/header" 
 
-    =render partial:"blogs/layouts/banner" 
+=render partial:"blogs/layouts/banner" 
 
-    =render partial:"blogs/layouts/projects" 
+=render partial:"blogs/layouts/projects" 
 
-    =render partial:"blogs/layouts/about"
+=render partial:"blogs/layouts/about"
 
-    =render partial:"blogs/layouts/contact"
+=render partial:"blogs/layouts/contact"
 
-    =render partial:"blogs/layouts/footer"
+=render partial:"blogs/layouts/footer"
         
-    h1 Markup examples
-
-    #content
-      p This example shows you what a basic Slim file looks like.
-
-      h1 id="headline"
-        | Welcome to my site.
-
-        a href="https://slim-template.github.io" title='Slim Homepage' Goto t.he Slim homepage
-
-    #footer
-      Copyright &copy; #{@year} #{@author}
-
-    |<> This line will have both leading and trailing white space.
