@@ -4,7 +4,12 @@ body
     #content
       p This example shows you what a basic Slim file looks like.
 
-    div id="footer"
-     Copyright &copy; #{@year} #{@author}
+      h1 id="headline"
+        | Welcome to my site.
 
-     |<> This line will have both leading and trailing white space.
+        a href="https://slim-template.github.io" title='Slim Homepage' Goto the Slim homepage
+
+    #footer
+      Copyright &copy; #{@year} #{@author}
+
+    |<> This line will have both leading and trailing white space.
