@@ -72,3 +72,5 @@ group :test do
 end
 
 gem "slim", "~> 5.2"
+
+gem "tailwindcss-rails", "~> 2.7"
